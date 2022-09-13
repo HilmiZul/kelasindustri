@@ -1,4 +1,26 @@
 body {
-  background: url('../img/bg.jpg') no-repeat center center fixed;
+  margin: 0;
+}
+#navbar {
+  width: 100%;
+  padding: 3vh 0 3vh 0;
+  background-color: #000;
   color: #fff;
+  margin-bottom: 0 !important;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar ul li {
+  margin-right: 5vh;
+}
+
+#header {
+  width: 100%;
+  margin-top: 0 !important;
+  display: block;
 }
